@@ -11,7 +11,7 @@
     "react": "^19.1.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "^0.0.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,10 +19,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/**/*.{js,jsx}",
-    "lint-fix": "eslint ./src/**/*.{js,jsx} --fix"
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "lint-fix": "eslint './src/**/*.{js,jsx}' --fix"
   },
-  "eslintConfig": {
+  "eslintConfig":{
     "extends": [
       "react-app",
       "react-app/jest",
