@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-dotenv = "==0.15.0"
+requests = "==2.25.1"
 flask = "==2.2.5"
 jinja2 = "==3.0.3"
 
